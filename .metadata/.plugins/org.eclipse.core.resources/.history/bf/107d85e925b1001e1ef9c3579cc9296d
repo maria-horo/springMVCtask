@@ -1,0 +1,30 @@
+package com.springmvc.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springmvc.bean.OrderingFood;
+import com.springmvc.entity.RoomBookingEntity;
+
+@Service
+public class OrderingFoodServiceImpl implements OrderingFoodService{
+	
+	@Autowired
+	private FoodRepository roomRepository;
+
+	@Override
+	public void save(OrderingFood orderingFood) {
+		OrderingFoodEntity orderingFoodEntity = new OrderingFoodEntity();
+		orderingFoodEntity.setName(orderingFood.getName());
+		orderingFoodEntity.setNoOfPersons(orderingFood.getNoOfPersons());
+		roomRepository.save(orderingFoodEntity);
+		
+	}
+
+	@Override
+	public void update(OrderingFood orderingFood) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

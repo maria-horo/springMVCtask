@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+   
+    <bean name = "car1" class = "spring_1.Car"
+    p:carnum = "111" p:carname="porche">
+    </bean>
+    
+    <bean name = "car2" class = "spring_1.Car"
+    p:carnum = "222" p:carname="mesarati"/>
+    
+    <bean name = "bike1" class = "spring_1.Bike"
+    p:bikenum = "333" p:bikename="KawasakiNinja"/>
+    
+    <bean name = "bike2" class = "spring_1.Bike"
+    p:bikenum = "444" p:bikename="RoyalEnfield"/>
+    
+    <bean name = "vehicle" class = "spring_1.Vehicle">
+    <property name = "car">
+    <list>
+    <ref bean = "car1"></ref>
+    <ref bean = "car2"></ref>
+    </list>
+    </property>
+    <property name = "bike">
+    <list>
+    <ref bean = "bike1"></ref>
+    <ref bean = "bike2"></ref>
+    </list>
+    </property>
+    </bean>
+</beans>

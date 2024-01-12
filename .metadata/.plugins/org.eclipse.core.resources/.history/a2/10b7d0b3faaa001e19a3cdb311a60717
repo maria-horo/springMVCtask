@@ -1,0 +1,24 @@
+package com.MGMschool.bean;
+
+public class MGMschoolStandard {
+	private int classStrength;
+	private long studentName;
+	
+	public int getClassStrength() {
+		return classStrength;
+	}
+	public void setClassStrength(int classStrength) {
+		this.classStrength = classStrength;
+	}
+	public long getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(long studentName) {
+		this.studentName = studentName;
+	}
+	
+	@Override
+	public String toString() {
+		return "MGMschoolConfig [classStrength=" + classStrength + ", studentName=" + studentName + "]";
+	}
+}

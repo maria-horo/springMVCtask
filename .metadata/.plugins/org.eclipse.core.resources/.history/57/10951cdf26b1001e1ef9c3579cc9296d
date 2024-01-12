@@ -1,0 +1,43 @@
+package com.springmvc.bean;
+
+import org.hibernate.validator.constraints.NotEmpty;
+
+public class OrderingFood {
+	
+	private int mobileNumber;
+	
+	@NotEmpty(message = "This field is required")
+	private String FoodName;
+	
+	private String address;
+
+
+	public int getMobileNumber() {
+		return mobileNumber;
+	}
+
+	public void setMobileNumber(int mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
+
+	public String getFoodName() {
+		return FoodName;
+	}
+
+	public void setFoodName(String foodName) {
+		FoodName = foodName;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public OrderingFood() {
+		super();
+	}
+	
+}

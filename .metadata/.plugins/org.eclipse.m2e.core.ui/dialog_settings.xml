@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ASUS\Documents\SpringMVC\SpringMVC"/>
+			<item value="C:\Users\ASUS\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\JavaWeek9Test\src\com\feuji\Employee.java"/>
+			<item value="C:\Users\ASUS\Downloads\Hibernate\Hibernate\src\main\java\com\org\entity\Student.java"/>
+			<item value="C:\Users\ASUS\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\spring_2\src\main\java\spring_2\StudentMain.java"/>
+			<item value="C:\Users\ASUS\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\smart.programming.yt"/>
+			<item value="C:\Users\ASUS\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\servlets2"/>
+			<item value="C:\Users\ASUS\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\servlets\src\main\java\com\servlets"/>
+			<item value="C:\Users\ASUS\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\servlets\src\main\webapp\index.jsp"/>
+			<item value="C:\Users\ASUS\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\PatternPrograms"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.ZomatoSpringMVC"/>
+		</list>
+		<list key="groupId">
+			<item value="com"/>
+		</list>
+		<list key="artifactId">
+			<item value="ZomatoSpringMVC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\ASUS\Documents\SpringMVC"/>
+			<item value="C:\Users\ASUS\Downloads\springmvc"/>
+			<item value="C:\Users\ASUS\Downloads\Hospital-Patient"/>
+			<item value="C:\Users\ASUS\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\JavaWeek9Test\src\com\feuji\Employee.java"/>
+			<item value="C:\Users\ASUS\Downloads\Hibernate"/>
+			<item value="C:\Users\ASUS\Downloads\shopping_feujiLecture2"/>
+			<item value="C:\Users\ASUS\Downloads\SpringIOCAnnotation"/>
+			<item value="C:\Users\ASUS\Downloads\shopping_feujiLecture"/>
+			<item value="C:\Users\ASUS\Documents\resources[1]"/>
+			<item value="C:\Users\ASUS\Downloads\dec20"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

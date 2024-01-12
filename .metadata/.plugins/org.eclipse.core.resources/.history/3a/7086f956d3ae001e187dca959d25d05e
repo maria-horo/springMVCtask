@@ -1,0 +1,9 @@
+package com.Hospital.Service;
+
+import com.HospitalJPA.Patient;
+
+public interface PatientService {
+	
+	void save(Patient patient);
+	Patient get(long id);
+}

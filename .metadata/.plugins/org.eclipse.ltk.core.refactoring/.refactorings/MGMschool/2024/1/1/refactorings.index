@@ -1,0 +1,8 @@
+1704365143914	Rename package 'com.bean'
+1704365163167	Rename package 'com.controller'
+1704365215765	Rename package 'com.config'
+1704365330394	Rename type 'MGMschoolConfig'
+1704367199488	Rename type 'MGMschool'
+1704368824817	Rename resource 'school.jsp'
+1704370055231	Move 'standard.jsp' to 'WEB-INF'
+1704370064315	Delete element
